@@ -1,18 +1,16 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package cadastrocliente;
 import java.awt.*;
 
-public class FormularioCliente extends Frame{
+public class FormularioCliente extends Frame
+{
     protected Dimension dQuadro, dRotulo, dCaixaTexto, dBotao;
     protected TextField tfNome, tfSenha, tfEMail, tfTelefone, tfCPF, tfCEP, tfNumero;
     protected Button bConcluir, bCancelar;
     protected Label lNome, lSenha, lEMail, lTelefone, lCPF, lCEP, lNumero;
     
-    public FormularioCliente() {
+    public FormularioCliente()
+    {
         Dimension dQuadro = new Dimension(550,600);
         Dimension dRotulo = new Dimension(45,25);
         Dimension dCaixaTexto = new Dimension(400,25);
@@ -30,31 +28,17 @@ public class FormularioCliente extends Frame{
         tfNome = new TextField();
         tfNome.setSize(dCaixaTexto);
         tfNome.setLocation(80,50);
-        
-        
-        
-        
-        
-        
-        
-        
+     
         add(lNome);
         add(tfNome);
     }
-    
 }
-
-
-
 package cadastrocliente;
-
 
 public class CadastroCliente {
 
-   
     public static void main(String[] args) {
         FormularioCliente formUm = new FormularioCliente();
         formUm.setVisible(true);
     }
-    
 }
