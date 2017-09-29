@@ -10,7 +10,7 @@
 	Com a falta de análise de preços dos remédios e a sua disponibilidade nas farmácias, muitas vezes faz os clientes irem de uma farmácia a outra. 
 	
 	1.4 JUSTIFICATIVA DA ESCOLHA DO TEMA
-	O aplicativo conterá os preços de remédios em diversas farmácias, e retornará ao cliente as informações que ele necessita para ter o melhor custo/beneficio, fazendo uso de filtros em suas pesquisas através de interfaces amigáveis.
+	A escolha do tema foi devido a necessidade de realizar compras de forma mais eficientes e gerar mais lucros aos farmacêuticos.
 	
 	1.5 MÉTODO DE TRABALHO
 	Em seu desenvolvimento será utilizado o modelo em cascata para controlar todas as etapas de desenvolvimento e reduzir as ocorrências de erros, será codificada em linguagem Java orientado a objeto utilizando técnicas de clean code na codificação também será utilizada o MySQL para realização do BD.
