@@ -29,7 +29,11 @@ O terceiro grupo tera a responsabilidade a codificação do aplicativo, a  imple
 
 2. DESCRIÇÃO GERAL DO SISTEMA
 
-Em meio a crise a opção de preços baixos dos remédios é importante a pessoas doentes e de baixa renda. Facilitar o acesso para analisar os preços e o local mais proximo é essencial para a sua eficiencia. A melhor opção seria um software onde a pessoa faz uma busca do remédio necessidado com uso de filtros na mesma hora que sair da consulta médica. Retornando os melhores resultados pelo criterio de custo/beneficio.
+	2.1 DESCRIÇÃO DO PROBLEMA
+	Em meio a crise que ocorre no país, a opção de preços baixos dos remédios é importante. As população e os os farmacêuticos serão os afetados pelo projeto, causando assim mais lucros para eles e as pessoas econimizando mais.
+
+	
+A melhor opção seria um software onde a pessoa faz uma busca do remédio necessidado com uso de filtros na mesma hora que sair da consulta médica. Retornando os melhores resultados pelo criterio de custo/beneficio.
 O software será usado pelos farmaceuticos, onde eles acrescentaram os remedios disponiveis e seus respectivos preços. Os dados serão inseridos no bando de dados para os clientes fazerem buscas entre diversas farmacias. 
 Os envolvidos no desenvolvimento do software são alunos de SI, que deverão realizar a documentação, codificação, implantação e a realização de testes. Separados em quatro grupos, totalizando sete profissionais, cada um será responsavel pela finalização das etapas. 
 Primeiro grupo terá um analista que será responsavel pela documetação do software, escolher a melhor opção de modelo de desenvolvimento, análise dos requisitos e verificação dos riscos.
