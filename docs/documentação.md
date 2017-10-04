@@ -30,13 +30,16 @@ O terceiro grupo tera a responsabilidade a codificação do aplicativo, a  imple
 2. DESCRIÇÃO GERAL DO SISTEMA
 
 	2.1 DESCRIÇÃO DO PROBLEMA
-	Em meio a crise que ocorre no país, a opção de preços baixos dos remédios é importante. As população e os os farmacêuticos serão os afetados pelo projeto, causando assim mais lucros para eles e as pessoas econimizando mais.
+	As pessoas e os farmacêuticos serão afetados pelo projeto, causando mais ecônomia para as  pessoas e lucros para os donos de farmacias atravez de uma aplicação que disponibiliza os preços de remedios e as farmacias que os disponibiliza.
 
-	
-A melhor opção seria um software onde a pessoa faz uma busca do remédio necessidado com uso de filtros na mesma hora que sair da consulta médica. Retornando os melhores resultados pelo criterio de custo/beneficio.
-O software será usado pelos farmaceuticos, onde eles acrescentaram os remedios disponiveis e seus respectivos preços. Os dados serão inseridos no bando de dados para os clientes fazerem buscas entre diversas farmacias. 
-Os envolvidos no desenvolvimento do software são alunos de SI, que deverão realizar a documentação, codificação, implantação e a realização de testes. Separados em quatro grupos, totalizando sete profissionais, cada um será responsavel pela finalização das etapas. 
-Primeiro grupo terá um analista que será responsavel pela documetação do software, escolher a melhor opção de modelo de desenvolvimento, análise dos requisitos e verificação dos riscos.
-Segundo grupo conterá dois projetistas que será responsavel pela modelagem do banco de dados, normalização, DDL, DML e evitar a ocorrencia de reduntância e inconsistencia dos dados.
-Terceiro grupo conterá dois desenvolvedores que será responsavel pela codicação do software, criação de interfaces e realizar os devidos testes no codigo.
-Quarto grupo conterá dois profissionais que vará os testes finais e realizar a implantação do sistema.
+	2.2 PRINCIPAIS ENVOLVIDOS E SUAS CARACTERÍSTICAS
+	2.1.1 USUÁRIOS DO SISTEMA
+	Os envolvidos do projeto são os farmacêuticos, os clientes e os socios junto com uma equipe de cinco desenvolvedores do sistema.
+	2.1.2 DESENVOLVEDORES DO SISTEMA
+	No desenvolvimento conterá três socios que são estudantes de Sistemas de Informação e cinco desenvolvedores, divididos em três grupos tendo um socio responsavel pelo avanço das equipes.
+Grupo 1: O socio será responsavel pela documetação do software, escolher a melhor opção de modelo de desenvolvimento, análise dos requisitos e verificação dos riscos.
+Grupo 2: Haverá três desenvolvedores que será responsavel pela modelagem do banco de dados, normalização, DDL, DML e evitar a ocorrencia de reduntância e inconsistencia dos dados, codicação do software, criação de interfaces e realizar os devidos testes no código.
+Grupo 3: Conterá dois desenvolvedores que realizará os testes finais e realizar a implantação do sistema.
+2.3 REGRAS DE NEGÓCIO
+ O software será aplicado para as farmacias da cidade de bauru e região, disponibilidado para dispositivos android e IOS, não ter tolerância à falhas e deve suportar acesso concorrente, sendo possivel ser acrescentada mais farmacias no banco de dados e expandir para outras cidades.
+
