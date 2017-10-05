@@ -7,23 +7,29 @@ void moveDisco(char origem, char destino)
 	printf("%c -> %c\n", origem, destino);
 }
 
-void torreHanoi(int altura, char origem, char destino)
+void torreHanoi(int altura, char origem, char destino, char trabalho)
 {
-	if(altura > 1)
+	
+	if(altura == 1)
 	{
+		moveDisco(origem,destino);
 		
 	}
 	else
 	{
+		torreHanoi(altura-1, origem, destino, trabalho);
+		torreHanoi(altura-1,origem,trabalho,destino);
 		moveDisco(origem,destino);
+		printf("%c -> %c\n", trabalho,destino);
+	
 	}
 }
 
-void main()
-{
+main() {
 	int n;
+	
 	printf("\nDigite a altura da torre: ");
-	scanf("%n", &n);
+	scanf("%d", &n);
 	torreHanoi(n, 'A','B','C');
 	getch();
 }
