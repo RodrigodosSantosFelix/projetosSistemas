@@ -43,3 +43,9 @@ Grupo 3: Conterá dois desenvolvedores que realizará os testes finais e realiza
 2.3 REGRAS DE NEGÓCIO
  O software será aplicado para as farmacias da cidade de bauru e região, disponibilidado para dispositivos android e IOS, não ter tolerância à falhas e deve suportar acesso concorrente, sendo possivel ser acrescentada mais farmacias no banco de dados e expandir para outras cidades.
 
+
+
+3. REQUISITOS DO SISTEMA
+	3.1 REQUISITOS FUNCIONAIS
+	
+	
