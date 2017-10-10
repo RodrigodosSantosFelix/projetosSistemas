@@ -1,3 +1,6 @@
+/*Rodrigo dos Santos Felix
+  RA: 010617040
+  */
 #include <iostream>
 #include <stdio.h>
 #include <conio.h>
@@ -17,10 +20,9 @@ void torreHanoi(int altura, char origem, char destino, char trabalho)
 	}
 	else
 	{
-		torreHanoi(altura-1, origem, destino, trabalho);
-		torreHanoi(altura-1,origem,trabalho,destino);
-		moveDisco(origem,destino);
-		printf("%c -> %c\n", trabalho,destino);
+		torreHanoi(altura-1, origem, trabalho, destino);
+		printf("%c -> %c\n", origem, destino);
+		torreHanoi(altura-1, trabalho,destino, origem);
 	
 	}
 }
