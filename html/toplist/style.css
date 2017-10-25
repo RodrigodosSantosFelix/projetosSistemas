@@ -1,0 +1,16 @@
+.app {
+	display: -webkit-flex;
+	display: flex;
+}
+.screenshot{
+	margin-left: 2px;
+	margin-right:2px;
+}
+.description{
+	margin-right:auto;
+	margin-left: auto;
+	margin-top: auto;
+	font-size: 12
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+}
