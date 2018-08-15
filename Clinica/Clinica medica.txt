@@ -1,0 +1,24 @@
+Create table Medicos
+(CRM int Primary key,
+NomeMed Varchar (30),
+EspecialidadeMed varchar (30))
+
+Create table Pacientes
+(NomePac varchar(30),
+RG varchar(9),
+CPF varchar(11) Primary key ,
+EnderecoPac varchar(30),
+TelefonePac varchar(10),
+NascPac Date)
+
+Create table Tratamentos
+(CodTratamento int Primary key,
+CPF varchar(11) Foreign key References Pacientes (CPF),
+CRM int Foreign key References Medicos (CRM),
+DataInicio date, 
+DataFim date, 
+)
+
+
+
+
