@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<p>Cadastro de clientes</p>
+		<form method="post" action="formcliente.php">
+			Nome Completo:
+			<input type="text" name="nome" size="20" maxlength="80">
+			<br><br>Data de nascimento:
+			<input type="date" name="datanasc" min="01-01-1995">
+			<br><br>Altura (Cm):
+			<input type="range" name="altura" min="0" max="200"><br>
+			<input type="submit" name="enviar" value="Enviar">
+			<input type="reset" name="limpar" value="Limpar">
+		</form>
+	</body>
+</html>
