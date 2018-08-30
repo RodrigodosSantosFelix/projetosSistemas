@@ -1,2 +1,2 @@
 # projetosSistemas
-Todos os projetos desenvolvidos na graduação de sistemas de informação
+Todos os projetos e estudos desenvolvidos durante a graduação de sistemas de informação.
