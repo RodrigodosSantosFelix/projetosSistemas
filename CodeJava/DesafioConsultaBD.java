@@ -5,11 +5,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
-/**
- *
- * @Rodrigo dos Santos Felix 010617040
- * Instituição Toledo de Ensino
- */
+
 public class DesafioConsultaBD
 {
     static final String banco = "jdbc:mysql://localhost:3306/escola";
