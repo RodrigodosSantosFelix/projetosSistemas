@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://analisador.service.com/" targetNamespace="http://analisador.service.com/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="consultaPontos" type="tns:consultaPontos" />
+  <xs:element name="consultaPontosResponse" type="tns:consultaPontosResponse" />
+  <xs:complexType name="consultaPontos">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="carta" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="consultaPontosResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

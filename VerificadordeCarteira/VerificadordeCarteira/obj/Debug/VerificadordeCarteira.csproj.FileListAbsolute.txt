@@ -1,0 +1,10 @@
+C:\Users\tecnico\Documents\Nova pasta\VerificadordeCarteira\VerificadordeCarteira\bin\Debug\VerificadordeCarteira.exe.config
+C:\Users\tecnico\Documents\Nova pasta\VerificadordeCarteira\VerificadordeCarteira\bin\Debug\VerificadordeCarteira.exe
+C:\Users\tecnico\Documents\Nova pasta\VerificadordeCarteira\VerificadordeCarteira\bin\Debug\VerificadordeCarteira.pdb
+C:\Users\tecnico\Documents\Nova pasta\VerificadordeCarteira\VerificadordeCarteira\obj\Debug\VerificadordeCarteira.csprojAssemblyReference.cache
+C:\Users\tecnico\Documents\Nova pasta\VerificadordeCarteira\VerificadordeCarteira\obj\Debug\VerificadordeCarteira.Form1.resources
+C:\Users\tecnico\Documents\Nova pasta\VerificadordeCarteira\VerificadordeCarteira\obj\Debug\VerificadordeCarteira.Properties.Resources.resources
+C:\Users\tecnico\Documents\Nova pasta\VerificadordeCarteira\VerificadordeCarteira\obj\Debug\VerificadordeCarteira.csproj.GenerateResource.cache
+C:\Users\tecnico\Documents\Nova pasta\VerificadordeCarteira\VerificadordeCarteira\obj\Debug\VerificadordeCarteira.csproj.CoreCompileInputs.cache
+C:\Users\tecnico\Documents\Nova pasta\VerificadordeCarteira\VerificadordeCarteira\obj\Debug\VerificadordeCarteira.exe
+C:\Users\tecnico\Documents\Nova pasta\VerificadordeCarteira\VerificadordeCarteira\obj\Debug\VerificadordeCarteira.pdb
