@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,10 +17,23 @@ namespace VerificadordeCarteira
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnBuscar_Click(object sender, EventArgs e)
         {
             ServiceAnalisador.AnalisadorMultasService objAnalisador = new ServiceAnalisador.AnalisadorMultasService();
             
+            objAnalisador.Timeout = (60 * 1000) * 1;
+
+            String carta;
+            carta = txtCarteira.Text;
+            
+            Array[] resultado = objAnalisador.consultaPontos(carta);
+            if (resultado == null || resultado.Length == 0) {
+                MessageBox.Show( "Sem retorno do servidor" );
+                txtCarteira.Text = null;
+                txtCarteira.Focus;
+            }
+
+            MessageBox.Show( resultado, "| Uso Serviço Web", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
